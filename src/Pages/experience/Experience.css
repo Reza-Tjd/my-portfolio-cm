@@ -1,0 +1,162 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+h5,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font family */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header2 {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  opacity: 0.6;
+  background-image: url(../../../imgs/header2.jpg);
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main content styles */
+main {
+  /* padding: 20px;
+  padding-left: 75px;
+  padding-right: 75px; */
+
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.workDetail {
+  display: flex;
+  border-bottom: 1px rgb(197, 193, 193) solid;
+}
+
+.datail {
+  flex: 4;
+}
+h6 {
+  color: rgb(71, 70, 70);
+  flex: 1;
+}
+ h3 {
+  color: #6598c5;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+li {
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #555252;
+  list-style-type: circle;
+  font-size: 15px;
+}
+
+.content {
+  padding-bottom: 25px;
+}
+
+/* About section styles */
+.about {
+  margin-bottom: 30px;
+}
+
+/* Skills section styles */
+.skills ul {
+  /* list-style-type: none; */
+}
+
+/* Projects section styles */
+.projects .project {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.workDetail {
+  display: flex;
+  margin-top: 15px;
+}
+
+.detail2 {
+  flex: 1;
+}
+
+.detail3 {
+  flex: 4;
+}
+
+@media only screen and (max-width: 900px) {
+  
+  .detail {
+    flex: 1;
+  }
+  h6 {
+    flex: 2;
+  }
+  .detail2 {
+    flex: 1;
+  }
+  
+  .detail3 {
+    flex: 2;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+   h3 {
+    font-size: 17px;
+  }
+  h6 {
+    font-size: 9px;
+    flex: 1.5;
+  }
+  .detail{
+    flex: 1;
+  }
+  main {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  li {
+    font-size: 12px;
+  }
+  .detail2 {
+    flex: 1;
+  }
+  
+  .detail3 {
+    flex: 3;
+  }
+  h5{
+    font-size: 8px;
+  }
+  
+}

@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container2 {
+    max-width: 800px;
+    margin: 70px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .university,
+  .duration,
+  .description{
+    font-size: 17px;
+  }
+  
+  .headerEducation {
+    background-image: url(../../../imgs/study.jpg);
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    opacity: 0.7;
+    margin-bottom: 20px;
+  
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .education-item {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
+  .university {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .duration {
+    color: #999;
+    margin-top: 5px;
+  }
+  
+  .description {
+    color: #555;
+    line-height: 1.5;
+  }
+  
