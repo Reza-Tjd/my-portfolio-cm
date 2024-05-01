@@ -18,7 +18,7 @@ export default function Navbar() {
     <nav className="navbar" >
       <div className="navbar-menu">
 
-      <Link to="/" className="navbar-brand">
+      <Link to="/my-portfolio-cm/" className="navbar-brand">
         Reza's Website
       </Link>
       <div className="menu-toggle" onClick={toggleMenu}>
@@ -26,7 +26,7 @@ export default function Navbar() {
       </div>
       </div>
       <div className={`navbar-controls ${menuOpen ? "open" : ""}`}>
-        <Link to='/' className="language-btn" onClick={toggleMenu}>
+        <Link to='/my-portfolio-cm/' className="language-btn" onClick={toggleMenu}>
           <HomeIcon/>
         </Link>
         <Link to="/education" className="language-btn" onClick={toggleMenu}>
@@ -35,10 +35,10 @@ export default function Navbar() {
         <Link to="/experience" className="language-btn" onClick={toggleMenu}>
           Experiences
         </Link>
-        <button className="language-btn"> EN / DE</button>
-        <button className="theme-btn">
+        {/* <button className="language-btn"> EN / DE</button> */}
+        {/* <button className="theme-btn">
           <BedtimeIcon /> / <LightModeIcon />
-        </button>
+        </button> */}
       </div>
     </nav>
   );

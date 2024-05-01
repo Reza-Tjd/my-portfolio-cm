@@ -133,6 +133,11 @@
       height: 48px; */
       display: none;
     }
+
+    .project .description {
+      width: auto;
+      height: auto;
+    }
   
   
     @media (max-width: 768px) {

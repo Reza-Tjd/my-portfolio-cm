@@ -151,7 +151,7 @@ export default function Body() {
             <ul className="skills">
               <li>
                 <span className="title">
-                  <img src="/icons/html.png" alt="HTML" />
+                  <img src="././icons/html.png" alt="HTML" />
                   HTML
                 </span>
                 <span>
@@ -161,7 +161,7 @@ export default function Body() {
               </li>
               <li>
                 <span className="title">
-                  <img src="/icons/css.png" alt="CSS" />
+                  <img src="././icons/css.png" alt="CSS" />
                   CSS3
                 </span>
                 <span>
@@ -171,7 +171,7 @@ export default function Body() {
               </li>
               <li>
                 <span className="title">
-                  <img src="/icons/js.png" alt="JavaScript" />
+                  <img src="././icons/js.png" alt="JavaScript" />
                   JavaScript
                 </span>
                 <span>
@@ -181,7 +181,7 @@ export default function Body() {
               </li>
               <li>
                 <span className="title">
-                  <img src="/icons/react.png" alt="React" />
+                  <img src="././icons/react.png" alt="React" />
                   React
                 </span>
                 <span>
@@ -194,7 +194,7 @@ export default function Body() {
             <ul className="skills">
               <li>
                 <span className="title">
-                  <img src="/icons/git.png" alt="Git" />
+                  <img src="././icons/git.png" alt="Git" />
                   Git
                 </span>
                 <span>
@@ -204,7 +204,7 @@ export default function Body() {
               </li>
               <li>
                 <span className="title">
-                  <img src="/icons/vscode.png" alt="VS Code" />
+                  <img src="././icons/vscode.png" alt="VS Code" />
                   VS Code
                 </span>
                 <span>
@@ -231,49 +231,56 @@ export default function Body() {
                 <div className="project">
                   <img src="/img/placeholder.png" alt="" />
 
-                  <div class="title">Project Tilte</div>
+                  <div class="title">My Portfolio</div>
                   <p class="description">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
+                  I've crafted a website serving as my resume, continually developing it as I acquire new skills.
                   </p>
                   <div class="tech">
                     <span> Tech Used:</span>
                     <ul>
                       <li>
-                        <img src="/icons/html.png" />
+                        <img src="././icons/html.png" />
                       </li>
                       <li>
-                        <img src="/icons/css.png" />
+                        <img src="././icons/css.png" />
+                      </li>
+                      <li>
+                        <img src="././icons/react.png" />
+                      </li>
+                      <li>
+                        <img src="././icons/js.png" />
                       </li>
                     </ul>
                   </div>
                   <div class="buttons">
-                    <a class="button ghost" href="#">
+                    <a class="button ghost" href="https://reza-tjd.github.io/my-portfolio-cm/" target="_blank">
                       <i class="fa-regular fa-eye"></i>Demo
                     </a>
-                    <a href="#" class="button outline dark">
+                    <a href="https://github.com/Reza-Tjd/my-portfolio-cm" class="button outline dark"  target="_blank">
                       <i class="fa-brands fa-github"></i>View Code
                     </a>
                   </div>
                 </div>
                 <div className="project">
                   <img src="/img/placeholder.png" alt="" />
-                  <div className="title">Project Tilte</div>
+                  <div className="title">Neighborhood Connect </div>
                   <p className="description">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
+                  As one of my Master's degree courses, i worked on a Capstone project. I'm currently developing a communication network tailored for neighborhood use.
                   </p>
                   <div className="tech">
                     <span> Tech Used:</span>
                     <ul>
                       <li>
-                        <img src="/icons/html.png" />
+                        <img src="././icons/html.png" />
                       </li>
                       <li>
-                        <img src="/icons/css.png" />
+                        <img src="././icons/css.png" />
                       </li>
                       <li>
-                        <img src="/icons/js.png" />
+                        <img src="././icons/js.png" />
+                      </li>
+                      <li>
+                        <img src="././icons/react.png" />
                       </li>
                     </ul>
                   </div>
@@ -297,13 +304,19 @@ export default function Body() {
                     <span> Tech Used:</span>
                     <ul>
                       <li>
-                        <img src="/icons/html.png" />
+                        <img src="././icons/html.png" />
                       </li>
                       <li>
-                        <img src="/icons/css.png" />
+                        <img src="././icons/css.png" />
                       </li>
                       <li>
-                        <img src="/icons/react.png" />
+                        <img src="././icons/react.png" />
+                      </li>
+                      <li>
+                        <img src="././icons/sass.png" />
+                      </li>
+                      <li>
+                        <img src="././icons/tailwind.png" />
                       </li>
                     </ul>
                   </div>
@@ -316,7 +329,7 @@ export default function Body() {
                     </a>
                   </div>
                 </div>
-                <div class="project">
+                {/* <div class="project">
                   <img src="/img/placeholder.png" alt="" />
                   <div class="title">Project Tilte</div>
                   <p class="description">
@@ -327,16 +340,16 @@ export default function Body() {
                     <span> Tech Used:</span>
                     <ul>
                       <li>
-                        <img src="/icons/html.png" />
+                        <img src="././icons/html.png" />
                       </li>
                       <li>
-                        <img src="/icons/css.png" />
+                        <img src="././icons/css.png" />
                       </li>
                       <li>
-                        <img src="/icons/react.png" />
+                        <img src="././icons/react.png" />
                       </li>
                       <li>
-                        <img src="/icons/redux.png" />
+                        <img src="././icons/redux.png" />
                       </li>
                     </ul>
                   </div>
@@ -348,8 +361,8 @@ export default function Body() {
                       <i class="fa-brands fa-github"></i>View Code
                     </a>
                   </div>
-                </div>
-                <div class="project">
+                </div> */}
+                {/* <div class="project">
                   <img src="/img/placeholder.png" alt="" />
                   <div class="title">Project Tilte</div>
                   <p class="description">
@@ -360,13 +373,13 @@ export default function Body() {
                     <span> Tech Used:</span>
                     <ul>
                       <li>
-                        <img src="/icons/html.png" />
+                        <img src="././icons/html.png" />
                       </li>
                       <li>
-                        <img src="/icons/css.png" />
+                        <img src="././icons/css.png" />
                       </li>
                       <li>
-                        <img src="/icons/sass.png" />
+                        <img src="././icons/sass.png" />
                       </li>
                     </ul>
                   </div>
@@ -378,8 +391,8 @@ export default function Body() {
                       <i class="fa-brands fa-github"></i>View Code
                     </a>
                   </div>
-                </div>
-                <div class="project">
+                </div> */}
+                {/* <div class="project">
                   <img src="/img/placeholder.png" alt="" />
                   <div class="title">Project Tilte</div>
                   <p class="description">
@@ -390,13 +403,13 @@ export default function Body() {
                     <span> Tech Used:</span>
                     <ul>
                       <li>
-                        <img src="/icons/html.png" />
+                        <img src="././icons/html.png" />
                       </li>
                       <li>
-                        <img src="/icons/css.png" />
+                        <img src="././icons/css.png" />
                       </li>
                       <li>
-                        <img src="/icons/js.png" />
+                        <img src="././icons/js.png" />
                       </li>
                     </ul>
                   </div>
@@ -408,7 +421,7 @@ export default function Body() {
                       <i class="fa-brands fa-github"></i>View Code
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </section>
