@@ -80,23 +80,14 @@
     padding-right: 20px;
     padding-left: 20px;
   }
-  .sections section {
-    /* border-top: 1px solid #d9d9d9;
-    padding-top: 60px;
-    padding-bottom: 60px; */
-  }
+  
   .sections,
   .sections section:last-child {
     margin: 0;
     width: auto;
     border-left: none;
   }
-  .sections section h4 {
-
-   
-    
-
-  }
+ 
 
   .technologyTitle{
     font-weight: 400;
