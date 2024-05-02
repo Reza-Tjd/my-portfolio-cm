@@ -233,7 +233,8 @@ export default function Body() {
 
                   <div class="title">My Portfolio</div>
                   <p class="description">
-                  I've crafted a website serving as my resume, continually developing it as I acquire new skills.
+                    I've crafted a website serving as my resume, continually
+                    developing it as I acquire new skills.
                   </p>
                   <div class="tech">
                     <span> Tech Used:</span>
@@ -253,10 +254,18 @@ export default function Body() {
                     </ul>
                   </div>
                   <div class="buttons">
-                    <a class="button ghost" href="https://reza-tjd.github.io/my-portfolio-cm/" target="_blank">
+                    <a
+                      class="button ghost"
+                      href="https://reza-tjd.github.io/my-portfolio-cm/"
+                      target="_blank"
+                    >
                       <i class="fa-regular fa-eye"></i>Demo
                     </a>
-                    <a href="https://github.com/Reza-Tjd/my-portfolio-cm" class="button outline dark"  target="_blank">
+                    <a
+                      href="https://github.com/Reza-Tjd/my-portfolio-cm"
+                      class="button outline dark"
+                      target="_blank"
+                    >
                       <i class="fa-brands fa-github"></i>View Code
                     </a>
                   </div>
@@ -265,7 +274,9 @@ export default function Body() {
                   <img src="/img/placeholder.png" alt="" />
                   <div className="title">Neighborhood Connect </div>
                   <p className="description">
-                  As one of my Master's degree courses, i worked on a Capstone project. I'm currently developing a communication network tailored for neighborhood use.
+                    As one of my Master's degree courses, i worked on a Capstone
+                    project. I'm currently developing a communication network
+                    tailored for neighborhood use.
                   </p>
                   <div className="tech">
                     <span> Tech Used:</span>
@@ -285,10 +296,18 @@ export default function Body() {
                     </ul>
                   </div>
                   <div class="buttons">
-                    <a class="button ghost" href="#">
+                    <a
+                      class="button ghost"
+                      target="_blank"
+                      href="https://reza-tjd.github.io/neighboarhood-connect/"
+                    >
                       <i class="fa-regular fa-eye"></i>Demo
                     </a>
-                    <a href="#" class="button outline dark">
+                    <a
+                      href="https://github.com/Reza-Tjd/neighboarhood-connect"
+                      class="button outline dark"
+                      target="_blank"
+                    >
                       <i class="fa-brands fa-github"></i>View Code
                     </a>
                   </div>
@@ -428,9 +447,9 @@ export default function Body() {
         </div>
         <nav className="mobile-nav">
           <ul>
-          <li onClick={scrollToAboutMe}>About</li>
-          <li onClick={scrollToMySkill}>Skills</li>
-          <li onClick={scrollToMyProjects}>Projects</li>
+            <li onClick={scrollToAboutMe}>About</li>
+            <li onClick={scrollToMySkill}>Skills</li>
+            <li onClick={scrollToMyProjects}>Projects</li>
           </ul>
         </nav>
         {showUpButton && (

@@ -12,7 +12,7 @@ export default function Education() {
         <div className="education-item">
           <h3>Master of Science Computer Science and Software Engineering</h3>
           <p className="university">Constructor University</p>
-          <p className="duration">Duration:Sep 2023 - Present</p>
+          <p className="duration">Duration:Sep 2023 - Jul 2025</p>
           <p className="description">
             <p>Bremen, Germany</p>
             <p style={{ fontSize: "13px" }}>
