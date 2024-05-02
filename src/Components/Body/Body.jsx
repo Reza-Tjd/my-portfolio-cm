@@ -94,7 +94,7 @@ export default function Body() {
               company.
             </p>
             <div className="contact">
-              <div>
+              <div className="personalData">
                 <h5>Email</h5>
                 <p className="edit">
                   {email}
@@ -118,7 +118,7 @@ export default function Body() {
               </div>
             </div>
             <h5 className="socialMedia">Social Media</h5>
-            <Link
+            {/* <Link
               to={{ pathname: "https://www.linkedin.com/in/reza-tajadod/" }}
               target="_blank"
               rel="noopener noreferrer"
@@ -127,8 +127,19 @@ export default function Body() {
                 className="linkdin"
                 style={{ width: 50, height: 50 }}
               />
-            </Link>
+            </Link> */}
 
+            <a
+              href="https://www.linkedin.com/in/reza-tajadod/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LinkedInIcon
+                className="linkedin"
+                style={{ width: 50, height: 50 }}
+              />
+            </a>
+            <h4 className="skill-title">My Skills</h4>
             <h5 className="languageTitle">Languages</h5>
             <div className="languages">
               <div>
@@ -146,8 +157,8 @@ export default function Body() {
             </div>
           </section>
           <section id="skills" ref={mySkillRef}>
-            <h4>My Skills</h4>
-            <h4 className="technologyTitle">Technology</h4>
+            
+            <h5 className="technologyTitle">Technologies</h5>
             <ul className="skills">
               <li>
                 <span className="title">
@@ -190,7 +201,7 @@ export default function Body() {
                 </span>
               </li>
             </ul>
-            <h4 className="mt-64">Tools</h4>
+            <h5 className="mt-64">Tools</h5>
             <ul className="skills">
               <li>
                 <span className="title">
@@ -213,7 +224,7 @@ export default function Body() {
                 </span>
               </li>
             </ul>
-            <h4 className="mt-64">Other Skills</h4>
+            <h5 className="mt-64">Other Skills</h5>
             <ul className="other-skills">
               <li>Material UI</li>
               <li>Saas</li>
@@ -225,7 +236,7 @@ export default function Body() {
           </section>
           {/* sdadfadfadf */}
           <section id="projects" ref={myProjectsRef}>
-            <h4>My Projects</h4>
+            <h5 className="myproject-title">My Projects</h5>
             <div className="projects">
               <div className="projects">
                 <div className="project">
@@ -450,6 +461,7 @@ export default function Body() {
             <li onClick={scrollToAboutMe}>About</li>
             <li onClick={scrollToMySkill}>Skills</li>
             <li onClick={scrollToMyProjects}>Projects</li>
+           
           </ul>
         </nav>
         {showUpButton && (

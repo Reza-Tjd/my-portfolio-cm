@@ -26,7 +26,7 @@
     display: inline-block;
   }
   h5 {
-    color: #a0a0a0;
+    color: #666565;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 5px;
@@ -37,6 +37,10 @@
   }
   .mt-64 {
     margin-top: 64px;
+  }
+
+  .skill-title{
+    padding-top: 20px;
   }
   .header,
   .newContainer  {
@@ -50,6 +54,10 @@
     align-items: center;
     background-color: #333533;
     height: 376px;
+  }
+
+  h4{
+    font-size: 20px;
   }
   
   .header img {
@@ -158,6 +166,10 @@
     color: #fafafa;
     font-size: 12px;
   }
+
+  .personalData{
+    margin-bottom: 24px;
+  }
   
   .button.lang:hover {
     background-color: transparent;
@@ -248,16 +260,11 @@
     margin-bottom: 10px;
   }
   
-  .languageTitle{
-    margin-top: 35px;
-  }
   
-  @media only screen and (max-width:900px) {
-   
-  }
+
   
   .technologyTitle{
-    margin-top: 120px;
+    margin-top: 170px;
   }
   .contact p i {
     margin-left: 10px;
@@ -326,10 +333,12 @@
   .socials li.whatsapp:hover {
     background-image: url("../icons/social/whatsapp-hover.png");
   }
-  /* 
-  #skills {
-    margin-top: 170px;
+  
+  /* #skills .title {
+    display: block;
   } */
+
+ 
   
   #skills li {
     display: flex;
@@ -342,7 +351,7 @@
     padding: 10px 24px;
   }
   #skills .title {
-    font-weight: 500;
+    font-weight: 700;
   }
   #skills li i {
     padding: 10px 12px;
@@ -429,7 +438,8 @@
     margin-right: 4px;
   }
   .sections section#skills h4:first-child {
-    display: none;
+    display: block;
+    
   }
   .edit {
     display: flex;
@@ -450,9 +460,16 @@
     height: 472px;
   }
   
-  .languages {
+  .languages{
     display: flex;
     justify-content: space-evenly;
+ 
+    
+   
+  }
+
+  .languageTitle{
+    padding-top: 15px;
   }
   
   .languages div {
@@ -464,7 +481,7 @@
   .languages p:nth-child(2) {
     margin-top: 0;
     font-size: 14px;
-    color: #616060;
+    color: #514f4f;
   }
   
   .arrowUp {
