@@ -58,8 +58,8 @@ export default function Experience() {
             </div>
             <div className="workDetail">
               <div className="detail2">
-                <h5>Online Projects</h5>
-                <h6>Mar 2019 - Aug 2021</h6>
+                <h5 className="last-title">Online Projects</h5>
+                <h7>Mar 2019 - Aug 2021</h7>
               </div>
               <div className="detail3">
                 <div className="datail">

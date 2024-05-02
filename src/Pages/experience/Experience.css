@@ -47,6 +47,9 @@ main {
   display: flex;
   border-bottom: 1px rgb(197, 193, 193) solid;
 }
+.last-title{
+  padding-top: 22px;
+}
 
 .datail {
   flex: 4;
@@ -61,12 +64,23 @@ h6 {
   padding-top: 20px;
 }
 
+h7{
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(71, 70, 70);
+}
+
 li {
   line-height: 28px;
   letter-spacing: 1px;
   color: #555252;
   list-style-type: circle;
   font-size: 15px;
+}
+
+.last-title{
+  font-size: 19px;
+  font-weight: 600;
 }
 
 .content {
@@ -126,6 +140,9 @@ footer {
   .detail3 {
     flex: 2;
   }
+  .last-title{
+    background-color: #fff;
+  }
 
 }
 
@@ -133,10 +150,22 @@ footer {
     
    h3 {
     font-size: 17px;
+    line-height: 24px;
+  }
+  .last-title {
+    font-size: 11px;
+    background-color: white;
   }
   h6 {
-    font-size: 9px;
+    font-size: 7.5px;
     flex: 1.5;
+    padding-left: 20px;
+    padding-top: 8px;
+  }
+
+  h7{
+    font-size: 7px;
+    padding-left: 10px;
   }
   .detail{
     flex: 1;
@@ -154,6 +183,8 @@ footer {
   
   .detail3 {
     flex: 3;
+    padding-left: 23px;
+
   }
   h5{
     font-size: 8px;
