@@ -5,6 +5,7 @@ import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "./Responsive.css";
 import Footer from "../Footer/Footer";
+import HtmlIcon from '@mui/icons-material/Html';
 
 
 import { Link } from "react-router-dom";
@@ -164,6 +165,8 @@ export default function Body() {
               <li>
                 <span className="title">
                   <img src="././imgs/header.jpg" alt="HTML" />
+                  <HtmlIcon style={{color:'orange', fontSize:'30px'}}/>
+                  
                   HTML
                 </span>
                 <span>
