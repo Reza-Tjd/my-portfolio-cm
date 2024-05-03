@@ -17,6 +17,9 @@
   .myproject-title {
     padding-top: 25px;
   }
+  .arrowUp{
+    right: 3px;
+  }
 
   .skill-title {
     border-top: 1px solid rgb(176, 174, 174);
