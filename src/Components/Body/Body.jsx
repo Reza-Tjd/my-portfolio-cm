@@ -5,8 +5,6 @@ import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "./Responsive.css";
 import Footer from "../Footer/Footer";
-import HtmlIcon from '@mui/icons-material/Html';
-
 
 import { Link } from "react-router-dom";
 import { blue } from "@mui/material/colors";
@@ -159,15 +157,13 @@ export default function Body() {
             </div>
           </section>
           <section id="skills" ref={mySkillRef}>
-            
             <h5 className="technologyTitle">Technologies</h5>
             <ul className="skills">
               <li>
-                <span className="title">
-                  <img src="././imgs/header.jpg" alt="HTML" />
-                  <HtmlIcon style={{color:'orange', fontSize:'30px'}}/>
+                <span className="title2">
+                  {/* <img src="././icons/html.png" alt="HTML" /> */}
+                  <i class="fa-brands fa-html5">HTmL</i>
                   
-                  HTML
                 </span>
                 <span>
                   <i className="fa-solid fa-signal"></i>
@@ -465,7 +461,6 @@ export default function Body() {
             <li onClick={scrollToAboutMe}>About</li>
             <li onClick={scrollToMySkill}>Skills</li>
             <li onClick={scrollToMyProjects}>Projects</li>
-           
           </ul>
         </nav>
         {showUpButton && (
