@@ -6,6 +6,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "./Responsive.css";
 import Footer from "../Footer/Footer";
 
+
 import { Link } from "react-router-dom";
 import { blue } from "@mui/material/colors";
 import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
@@ -162,7 +163,7 @@ export default function Body() {
             <ul className="skills">
               <li>
                 <span className="title">
-                  <img src="././public/html.png" alt="HTML" />
+                  <img src="././icons/html-5.png" alt="HTML" />
                   HTML
                 </span>
                 <span>
