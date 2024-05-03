@@ -235,7 +235,8 @@ export default function Body() {
               </li>
               <li>
                 <span className="title">
-                  <p style={{ color: "#146DD7" }}>VS Code</p>
+                  
+                  <i class="fa-solid fa-code" style={{color: "#146DD7",fontSize: "17px" }}>VS Code</i>
                 </span>
                 <span>
                   <i className="fa-solid fa-signal"></i>
