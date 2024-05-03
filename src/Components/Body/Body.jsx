@@ -160,10 +160,13 @@ export default function Body() {
             <h5 className="technologyTitle">Technologies</h5>
             <ul className="skills">
               <li>
-                <span className="title2">
-                  {/* <img src="././icons/html.png" alt="HTML" /> */}
-                  <i class="fa-brands fa-html5">HTmL</i>
-                  
+                <span className="title">
+                  <i
+                    class="fa-brands fa-html5"
+                    style={{ color: "orange", fontSize: "17px" }}
+                  >
+                    HTmL
+                  </i>
                 </span>
                 <span>
                   <i className="fa-solid fa-signal"></i>
@@ -172,8 +175,13 @@ export default function Body() {
               </li>
               <li>
                 <span className="title">
-                  <img src="././icons/css.png" alt="CSS" />
-                  CSS3
+                  <i
+                    class="fa-brands fa-css3-alt"
+                    style={{ color: "#46AAE8", fontSize: "17px" }}
+                  >
+                    {" "}
+                    CSS3
+                  </i>
                 </span>
                 <span>
                   <i className="fa-solid fa-signal"></i>
@@ -182,8 +190,12 @@ export default function Body() {
               </li>
               <li>
                 <span className="title">
-                  <img src="././icons/js.png" alt="JavaScript" />
-                  JavaScript
+                  <i
+                    class="fa-brands fa-js"
+                    style={{ color: "#E8E30F", fontSize: "17px" }}
+                  >
+                    JavaScript
+                  </i>
                 </span>
                 <span>
                   <i className="fa-solid fa-signal"></i>
@@ -192,8 +204,12 @@ export default function Body() {
               </li>
               <li>
                 <span className="title">
-                  <img src="././icons/react.png" alt="React" />
-                  React
+                  <i
+                    class="fa-brands fa-react"
+                    style={{ color: "#0FDEE8", fontSize: "17px" }}
+                  >
+                    React
+                  </i>
                 </span>
                 <span>
                   <i className="fa-solid fa-signal"></i>
@@ -205,8 +221,12 @@ export default function Body() {
             <ul className="skills">
               <li>
                 <span className="title">
-                  <img src="././icons/git.png" alt="Git" />
-                  Git
+                  <i
+                    class="fa-brands fa-git-alt"
+                    style={{ color: "#C1360D", fontSize: "17px" }}
+                  >
+                    Git
+                  </i>
                 </span>
                 <span>
                   <i className="fa-solid fa-signal"></i>
@@ -215,8 +235,7 @@ export default function Body() {
               </li>
               <li>
                 <span className="title">
-                  <img src="././icons/vscode.png" alt="VS Code" />
-                  VS Code
+                  <p style={{ color: "#146DD7" }}>VS Code</p>
                 </span>
                 <span>
                   <i className="fa-solid fa-signal"></i>
@@ -251,16 +270,40 @@ export default function Body() {
                     <span> Tech Used:</span>
                     <ul>
                       <li>
-                        <img src="././icons/html.png" />
+                        <i
+                          class="fa-brands fa-html5"
+                          style={{
+                            color: "orange",
+                            fontSize: "25px",
+                            marginRight: "5px",
+                          }}
+                        ></i>
                       </li>
                       <li>
-                        <img src="././icons/css.png" />
+                        <i
+                          class="fa-brands fa-css3-alt"
+                          style={{
+                            color: "#46AAE8",
+                            fontSize: "25px",
+                            marginRight: "5px",
+                          }}
+                        ></i>
                       </li>
                       <li>
-                        <img src="././icons/react.png" />
+                        <i
+                          class="fa-brands fa-js"
+                          style={{
+                            fontSize: "25px",
+                            color: "#E8E30F",
+                            marginRight: "5px",
+                          }}
+                        ></i>
                       </li>
                       <li>
-                        <img src="././icons/js.png" />
+                        <i
+                          class="fa-brands fa-react"
+                          style={{ fontSize: "25px", color: "#0FDEE8" }}
+                        ></i>
                       </li>
                     </ul>
                   </div>
@@ -293,16 +336,40 @@ export default function Body() {
                     <span> Tech Used:</span>
                     <ul>
                       <li>
-                        <img src="././icons/html.png" />
+                        <i
+                          class="fa-brands fa-html5"
+                          style={{
+                            color: "orange",
+                            fontSize: "25px",
+                            marginRight: "5px",
+                          }}
+                        ></i>
                       </li>
                       <li>
-                        <img src="././icons/css.png" />
+                        <i
+                          class="fa-brands fa-css3-alt"
+                          style={{
+                            color: "#46AAE8",
+                            fontSize: "25px",
+                            marginRight: "5px",
+                          }}
+                        ></i>
                       </li>
                       <li>
-                        <img src="././icons/js.png" />
+                        <i
+                          class="fa-brands fa-js"
+                          style={{
+                            fontSize: "25px",
+                            color: "#E8E30F",
+                            marginRight: "5px",
+                          }}
+                        ></i>
                       </li>
                       <li>
-                        <img src="././icons/react.png" />
+                        <i
+                          class="fa-brands fa-react"
+                          style={{ fontSize: "25px", color: "#0FDEE8" }}
+                        ></i>
                       </li>
                     </ul>
                   </div>
@@ -334,19 +401,34 @@ export default function Body() {
                     <span> Tech Used:</span>
                     <ul>
                       <li>
-                        <img src="././icons/html.png" />
+                        <i
+                          class="fa-brands fa-html5"
+                          style={{
+                            color: "orange",
+                            fontSize: "25px",
+                            marginRight: "5px",
+                          }}
+                        ></i>
                       </li>
                       <li>
-                        <img src="././icons/css.png" />
+                      <i class="fa-brands fa-sass" style={{fontSize:'25px', marginRight:'5px', color:'#DD7DB3'}}></i>
+                      </li>
+                      
+                      <li>
+                        <i
+                          class="fa-brands fa-bootstrap"
+                          style={{
+                            color: "#922DFC",
+                            fontSize: "25px",
+                            marginRight: "5px",
+                          }}
+                        ></i>
                       </li>
                       <li>
-                        <img src="././icons/react.png" />
-                      </li>
-                      <li>
-                        <img src="././icons/sass.png" />
-                      </li>
-                      <li>
-                        <img src="././icons/tailwind.png" />
+                        <i
+                          class="fa-brands fa-react"
+                          style={{ fontSize: "25px", color: "#0FDEE8" }}
+                        ></i>
                       </li>
                     </ul>
                   </div>
