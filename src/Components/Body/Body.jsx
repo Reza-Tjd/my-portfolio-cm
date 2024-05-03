@@ -163,7 +163,7 @@ export default function Body() {
             <ul className="skills">
               <li>
                 <span className="title">
-                  <img src="././icons/html-5.png" alt="HTML" />
+                  <img src="././imgs/header.jpg" alt="HTML" />
                   HTML
                 </span>
                 <span>
