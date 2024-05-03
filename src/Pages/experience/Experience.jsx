@@ -63,10 +63,10 @@ export default function Experience() {
               </div>
               <div className="detail3">
                 <div className="datail">
-                  <h3>
+                  <h3 className="online-title">
                     Login Form Development using Tailwind CSS and React.js
                   </h3>
-                  <ul className="content">
+                  <ul className="content online-content">
                     <li>
                       Streamlined user authentication process by designing and
                       developing an intuitive and visually captivating login

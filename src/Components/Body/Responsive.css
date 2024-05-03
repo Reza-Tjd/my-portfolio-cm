@@ -1,25 +1,27 @@
-
-
 @media (max-width: 991.98px) {
   h4 {
     font-size: 20px;
   }
-  #about-me, #skills{
+  #about-me,
+  #skills {
     /* border-top: 1px solid #d9d9d9; */
     padding-top: 10px;
     /* padding-bottom: 60px; */
   }
 
-  .myproject-title{
+  .about-title {
+    border-top: 1px rgb(160, 159, 159) solid;
+    padding-top: 30px;
+  }
+
+  .myproject-title {
     padding-top: 25px;
   }
 
-
-  .skill-title{
+  .skill-title {
     border-top: 1px solid rgb(176, 174, 174);
   }
 
-  
   h5,
   body {
     font-size: 16px;
@@ -80,23 +82,23 @@
     padding-right: 20px;
     padding-left: 20px;
   }
-  
+
   .sections,
   .sections section:last-child {
     margin: 0;
     width: auto;
     border-left: none;
   }
- 
 
-  .technologyTitle{
+  .technologyTitle {
     font-weight: 400;
     font-size: 16px;
-    padding-top:120px ;
+    padding-top: 120px;
     color: #a0a0a0;
-    
-    
-    
+  }
+
+  .newContainer {
+    padding: 0;
   }
 
   .languageTitle {
@@ -104,7 +106,6 @@
     margin-bottom: 15px;
   }
 
- 
   .sections section#skills h4:not(:first-child) {
     color: #a0a0a0;
     font-size: 18px;
@@ -162,8 +163,8 @@
     }
   }
 
-  .technologyTitle{
-    padding-top:220px ;
+  .technologyTitle {
+    padding-top: 220px;
   }
 
   .mobile-nav ul {

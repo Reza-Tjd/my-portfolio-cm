@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 import { blue } from "@mui/material/colors";
 import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
 export default function Body() {
-  const [email, setEmail] = useState("rtajadod93@gmail.com");
-  const [phoneNumber, setPhoneNumber] = useState("+4617674881374");
+  const [email, setEmail] = useState("rtajadod@jacobs-university.de");
+  const [phoneNumber, setPhoneNumber] = useState("+4917674881374");
   const [copied, setCopied] = useState(false);
   const [showUpButton, setShowUpButton] = useState(false);
   const copyToClipboard = (text) => {
@@ -84,7 +84,7 @@ export default function Body() {
         </nav>
         <div className="sections">
           <section id="about-me" ref={aboutMeRef}>
-            <h4>About Me</h4>
+            <h4 className="about-title">About Me</h4>
             <p>
               A dedicated, energetic, hard-working, and eager-to-learn Frontend
               Developer Intern who can work independently or as an active team

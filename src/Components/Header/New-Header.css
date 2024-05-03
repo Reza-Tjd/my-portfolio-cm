@@ -79,3 +79,10 @@
     border-color: #fafafa;
     color: #fafafa;
   }
+
+
+  @media (max-width: 991px) {
+    .title {
+      padding-top: 0;
+    }
+  }
