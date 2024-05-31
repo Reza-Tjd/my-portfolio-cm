@@ -168,15 +168,7 @@
 
   
 
-  /* @media (max-width: 600px) {
-    .skill-title{
-      border-bottom: 1px solid #a0a0a0;
-      border-top: 1px solid #a0a0a0;
-      
-      
-    }
-
-  } */
+ 
 
   .technologyTitle {
     padding-top: 220px;
@@ -204,6 +196,35 @@
   .mobile-nav ul li:hover {
     color: #ffd100;
   }
+
+  @media (max-width: 600px) {
+    .skill-title{
+    
+      border-bottom: 1px solid rgb(227, 224, 224);
+    }
+    
+  }
+  @media (max-width: 510px) {
+    .technologyTitle{
+      border-bottom: 1px solid rgb(227, 224, 224);
+      margin-top: 150px;
+    }
+    
+  }
+  @media (max-width: 390px) {
+    .technologyTitle{
+      border-bottom: 1px solid rgb(227, 224, 224);
+      margin-top: 200px;
+    }
+    
+  }
+  @media (max-width: 336px) {
+    .technologyTitle{
+    
+      margin-top: 250px;
+    }
+    
+  }
 }
 
 @media (max-width: 768px) {
@@ -219,15 +240,20 @@
   }
 }
 
-@media (max-width: 500px) {
-  .skill-title{
-    border-bottom: 1px solid #a0a0a0;
-    border-top: 1px solid #a0a0a0;
-    
-    
+/* @media (max-width: 468px) {
+  .technologyTitle{
+    padding-top: 100px;
   }
-
 }
+
+@media (max-width: 400px) {
+  .technologyTitle{
+    color: #ffd100;
+  }
+  
+} */
+
+
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
