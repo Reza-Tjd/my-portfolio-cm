@@ -6,91 +6,94 @@ export default function Experience() {
   return (
     <div>
       <main className="main">
-        <header className="header2" >
+        <header className="header2">
           <h1 className="h1Name">My Experiences</h1>
         </header>
         <holder>
           <section className="about">
             <div className="workDetail">
-              <h6>Mar 2019 - Aug 2021</h6>
+              <h6>Apr 2024 </h6>
               <div className="datail">
-                <h3>Sales Executive | IKCO, Iran</h3>
+                <h3>
+                  Neighboarhood Connect Application using Tailwind, Css and
+                  React JS | Constructor University Bremen
+                </h3>
                 <ul className="content">
                   <li>
-                    Achieved record-breaking sales in the automotive retail
-                    sector through innovative marketing strategies, including
-                    website optimization and increased social media presence.
+                    Implemented 4 critical pages: login, sign-up, chat, and
+                    incident reporting, integrating API calls for data handling.
                   </li>
                   <li>
-                    Implemented strategic initiatives resulting in 17% growth in
-                    sales revenue.
+                    learned teamwork, finding solutions for arising challenges
+                    while thinking productively.
                   </li>
                   <li>
-                    Collaborated with cross-functional teams to develop and
-                    execute successful marketing campaigns.
+                    Cooperated with other teams (Backend, Security, CEO, and
+                    Database Management) to ensure smooth API interactions.
+                  </li>
+                  <li>
+                    Found a great achievement by taking advantage of Agile and
+                    code review sessions to share experiences and deal with code
+                    issues.
+                  </li>
+                  <li>
+                    I showed leadership in the team, especially when motivation
+                    was low, by sharing our project with university professors
+                    in sprint reviews. This helped us get feedback and stay
+                    focused.
+                  </li>
+                  <li>
+                    Deployed eye-catching, responsive designs for incidents and
+                    offers, resulting in a 50% reduction in bounce rates and a
+                    15% increase in user interaction. Used APIs to fetch and
+                    display data dynamically.
                   </li>
                 </ul>
               </div>
             </div>
             <div className="workDetail">
-              <h6>Sep 2021 - Dec 2022</h6>
+              <h6>Mar 2024 </h6>
               <div className="datail">
                 <h3>
-                  Sales Management and Advisory Roles | Impex Company, Dubai
+                  Personal Portfolio using Tailwind, CSS, MUI, and React.js
                 </h3>
                 <ul className="content">
                   <li>
-                    Specialized in promoting and selling Caviar in a competitive
-                    market, securing contracts with five luxury hotels within
-                    four months.
+                    Established a component-based architecture, showing
+                    initiative and forward-thinking, which created reusable code
+                    components and reduced development time by about 20% for
+                    future projects.
                   </li>
                   <li>
-                    Demonstrated ability to thrive in challenging business
-                    environments through strategic sales planning and execution.
+                    Set up Single Page Application (SPA) integration to update
+                    content without reloading, making pages load 30% faster.
                   </li>
                   <li>
-                    Provided expert guidance to sales teams, resulting in
-                    [mention specific metric] improvement in overall sales
-                    performance.
+                    completely responsive website with different styles for
+                    different screen sizes.
                   </li>
                 </ul>
               </div>
             </div>
             <div className="workDetail">
               <div className="detail2">
-                <h5 className="last-title">Online Projects</h5>
-                <h7>Mar 2019 - Aug 2021</h7>
+                <h5 className="last-title" style={{fontSize:'15px'}} >Personal Projects</h5>
+                <h7>Sep 2023 </h7>
               </div>
               <div className="detail3">
                 <div className="datail">
                   <h3 className="online-title">
-                    Login Form Development using Tailwind CSS and React.js
+                    Dashboard Development using Material-UI and React.js
                   </h3>
                   <ul className="content online-content">
                     <li>
-                      Streamlined user authentication process by designing and
-                      developing an intuitive and visually captivating login
-                      form.
+                      Took the lead in designing a visually appealing and
+                      user-friendly dashboard for admins, resulting in a 35%
+                      increase in efficiency for data tasks.
                     </li>
                     <li>
-                      Deepened understanding of UI/UX principles and enhanced
-                      proficiency in front-end development tools.
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="datail">
-                  <h3>Dashboard Development using Material-UI and React.js</h3>
-                  <ul className="content">
-                    <li>
-                      Crafted an aesthetically pleasing and highly functional
-                      dashboard interface catering to admin needs for data
-                      visualization and management.
-                    </li>
-                    <li>
-                      Strengthened expertise in React.js through dynamic data
-                      rendering and proactive troubleshooting during
-                      development.
+                      Enhanced user authentication by designing a friendly login
+                      form, making the process 20% smoother for users.
                     </li>
                   </ul>
                 </div>
@@ -101,12 +104,86 @@ export default function Experience() {
                   </h3>
                   <ul className="content">
                     <li>
-                      Established a user-friendly ticket purchasing platform to
-                      enhance the overall user experience.
+                      irected the creation of a simpler ticket-buying system,
+                      reducing checkout time by 30% and enhancing user
+                      experience. This resulted in increased transactions and
+                      enhanced customer loyalty.
                     </li>
                     <li>
-                      Implemented dynamic features, including real-time updates
-                      on ticket availability, utilizing React.js.
+                      Implemented interactive features like real-time updates on
+                      ticket availability, using React.js, Leading to a 25%
+                      surge in user engagement.
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="datail">
+                  <h3>
+                    Login Form Development using Tailwind CSS and React.js:
+                  </h3>
+                  <ul className="content">
+                    <li>
+                      optimized the login experience with a user-friendly
+                      authentication form, reducing login errors by 40% and
+                      enhancing user satisfaction and security across the
+                      platform.
+                    </li>
+                    <li>
+                      Gained a deeper understanding of UI/UX principles and
+                      improved skills in front-end development tools, leading to
+                      a 30% increase in design efficiency.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="workDetail">
+              <div className="detail2">
+                <h5 className="last-title" style={{fontSize:'15px'}}>Business Projects</h5>
+                <h7> Sep 2021 - Dec 2022 </h7>
+              </div>
+              <div className="detail3">
+                <div className="datail">
+                  <h3 className="online-title">
+                    Sales Management and Advisory Roles | Impex Company, Dubai
+                  </h3>
+                  <ul className="content online-content">
+                    <li>
+                      Specialized in promoting and selling Caviar in a
+                      competitive market, showing initiative and persistence by
+                      securing contracts with five luxury hotels within four
+                      months.
+                    </li>
+                    <li>
+                      Demonstrated directed succeed in challenging business
+                      situations through smart sales planning and execution. Led
+                      the team with energy and clear guidance, leading to a 20%
+                      boost in sales.
+                    </li>
+                    <li>
+                      Guided expert guidance to sales teams by following the
+                      successful Company policy, resulting in a 15% improvement
+                      in overall sales performance.
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="datail">
+                  <h3>Sales Executive | IKCO, Iran</h3>
+                  <ul className="content">
+                    <li>
+                      Achieved better sales rate in the market through
+                      innovative marketing strategies, including.
+                    </li>
+                    <li>
+                      Improved website and increased social media activity,
+                      leading to a 10% revenue boost. Implemented strategic
+                      initiatives, resulting in a 17% growth in sales revenue.
+                    </li>
+                    <li>
+                      Advised team to make successful marketing campaigns.
+                      Showed leadership by organizing tasks and encouraging
+                      teamwork, resulting in a 25% increase in campaign success.
                     </li>
                   </ul>
                 </div>

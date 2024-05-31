@@ -4,13 +4,13 @@
   }
   #about-me,
   #skills {
-    /* border-top: 1px solid #d9d9d9; */
+    
     padding-top: 10px;
     /* padding-bottom: 60px; */
   }
 
   .about-title {
-    border-top: 1px rgb(160, 159, 159) solid;
+   
     padding-top: 30px;
   }
 
@@ -20,10 +20,16 @@
   .arrowUp{
     right: 3px;
   }
-
-  .skill-title {
-    border-top: 1px solid rgb(176, 174, 174);
+  .technologyTitle{
+    margin-top: 80px;
   }
+
+  .skill-title{
+    border-bottom: 1px solid #a0a0a0;
+    border-top: 1px solid #a0a0a0;
+    
+  }
+  
 
   h5,
   body {
@@ -160,11 +166,17 @@
     height: auto;
   }
 
-  @media (max-width: 768px) {
-    .mobile-nav {
-      display: block;
+  
+
+  /* @media (max-width: 600px) {
+    .skill-title{
+      border-bottom: 1px solid #a0a0a0;
+      border-top: 1px solid #a0a0a0;
+      
+      
     }
-  }
+
+  } */
 
   .technologyTitle {
     padding-top: 220px;
@@ -192,6 +204,29 @@
   .mobile-nav ul li:hover {
     color: #ffd100;
   }
+}
+
+@media (max-width: 768px) {
+  .mobile-nav {
+    display: block;
+  }
+
+  .skill-title{
+    border-bottom: 1px solid #a0a0a0;
+    border-top: 1px solid #a0a0a0;
+    
+    
+  }
+}
+
+@media (max-width: 500px) {
+  .skill-title{
+    border-bottom: 1px solid #a0a0a0;
+    border-top: 1px solid #a0a0a0;
+    
+    
+  }
+
 }
 
 /* Large devices (desktops, less than 1200px) */

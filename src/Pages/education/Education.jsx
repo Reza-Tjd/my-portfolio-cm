@@ -16,10 +16,7 @@ export default function Education() {
           <p className="description">
             <p>Bremen, Germany</p>
             <p style={{ fontSize: "13px" }}>
-              During my education, I've been completing several courses that
-              will help me in my future career. These include Agile methodology,
-              Architectural Strategy, Capstone Project (creating a project from
-              scratch), and Machine Learning.
+            During the education, relevant courses such as Agile Methodology, Architectural Strategy, Capstone Project (creating a project from scratch), and Machine Learning have been undertaken.
             </p>
           </p>
         </div>
@@ -27,13 +24,23 @@ export default function Education() {
           <h3>Master of Science MBA</h3>
           <p className="university">PNU University</p>
           <p className="duration">Duration: Jan 2019 - Dec 2021</p>
-          <p className="description">Iran</p>
+          <p className="description">
+            <p>Iran</p>
+            <p style={{ fontSize: "13px" }}>
+            Completed a Master's in Business Administration with a focus on marketing. Studied topics such as business management, marketing strategies, financial management, and team leadership. This education provided knowledge to operate businesses and tackle challenges.
+            </p>
+          </p>
         </div>
         <div className="education-item">
           <h3>Bachelor of Science Mechanical Engineering</h3>
           <p className="university">Shahid Bahonar University</p>
           <p className="duration">Duration: Sep 2013 - Mar 2018</p>
-          <p className="description">Kerman, Iran</p>
+          <p className="description">
+            <p>Kerman, Iran</p>
+            <p style={{ fontSize: "13px" }}>
+            Completed the Bachelor of Mechanical Engineering, enhancing troubleshooting skills and concluding with a practical thesis on designing a machine capable of reaching speeds up to 9000 rpm.
+            </p>
+          </p>
         </div>
         <div className="education-item">
           <h3>High School Diploma Mathematics and Physics</h3>
