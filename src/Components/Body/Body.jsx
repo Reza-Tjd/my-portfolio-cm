@@ -143,16 +143,16 @@ export default function Body() {
             <h5 className="languageTitle">Languages</h5>
             <div className="languages">
               <div>
-                <p>English</p>
-                <p>Advanced</p>
-              </div>
-              <div>
                 <p>German</p>
-                <p>Intermediate</p>
+                <p>Intermediate (B1)</p>
               </div>
               <div>
-                <p>Turkish</p>
-                <p>Intermediate</p>
+                <p>English</p>
+                <p>Advanced (C1)</p>
+              </div>
+              <div>
+                <p>Persian</p>
+                <p>Mother tongue (C2) </p>
               </div>
             </div>
           </section>
@@ -235,8 +235,12 @@ export default function Body() {
               </li>
               <li>
                 <span className="title">
-                  
-                  <i class="fa-solid fa-code" style={{color: "#146DD7",fontSize: "17px" }}>VS Code</i>
+                  <i
+                    class="fa-solid fa-code"
+                    style={{ color: "#146DD7", fontSize: "17px" }}
+                  >
+                    VS Code
+                  </i>
                 </span>
                 <span>
                   <i className="fa-solid fa-signal"></i>
@@ -412,9 +416,16 @@ export default function Body() {
                         ></i>
                       </li>
                       <li>
-                      <i class="fa-brands fa-sass" style={{fontSize:'25px', marginRight:'5px', color:'#DD7DB3'}}></i>
+                        <i
+                          class="fa-brands fa-sass"
+                          style={{
+                            fontSize: "25px",
+                            marginRight: "5px",
+                            color: "#DD7DB3",
+                          }}
+                        ></i>
                       </li>
-                      
+
                       <li>
                         <i
                           class="fa-brands fa-bootstrap"

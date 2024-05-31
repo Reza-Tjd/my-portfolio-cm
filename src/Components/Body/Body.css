@@ -38,9 +38,15 @@
   .mt-64 {
     margin-top: 64px;
   }
+  .about-title{
+    border-bottom: 1px solid #a0a0a0;
+    padding-bottom: 5px;
+  }
 
   .skill-title{
     padding-top: 20px;
+    border-bottom: 1px solid #a0a0a0;
+    padding-bottom: 5px;
   }
   .header,
   .newContainer  {
@@ -229,7 +235,7 @@
     font-size: 22px;
   }
   .sections {
-    width: 700px;
+    width: 765px;
     margin-top: 6px;
     border-left: 1px solid #333533;
     padding-left: 50px;
@@ -262,7 +268,7 @@
 
   
   .technologyTitle{
-    margin-top: 170px;
+    margin-top: 220px;
   }
   .contact p i {
     margin-left: 10px;
@@ -360,12 +366,14 @@
     margin-right: 6px;
     vertical-align: middle;
   }
+
+ 
   .other-skills li {
     border: 1px solid #a0a0a0;
     border-radius: 24px;
     display: inline-block;
     padding: 4px 16px;
-    margin: 0px 16px 18px 0px;
+    margin: 0px 0 18px 0px;
   }
   
   .projects {
@@ -382,6 +390,9 @@
     width: 25%;
     margin-bottom: 36px;
    
+  }
+  #projects{
+    margin-top: 60px;
   }
   .project:not(:last-child) {
     margin-right: 20px;
